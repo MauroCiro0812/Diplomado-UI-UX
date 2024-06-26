@@ -1,0 +1,67 @@
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css");
+*{
+    padding: 0;
+    margin: 0;
+    background-color: black;
+    color: white;
+}
+header h1{
+    border-top: rgba(255, 255, 255, 0.76) solid;
+}
+h1{
+    text-align: center;
+    padding-left: 55px;
+    background-color: rgba(105, 105, 105, 0.979);
+}
+nav{
+    text-align: center;
+    background-color: orange;
+    width: auto;
+    height: 30px;
+    display: block;
+}
+nav a {
+    padding-left: 45px;
+    text-decoration: none;
+    background-color: orange;
+    align-items: center;
+}
+nav a:hover{
+    font-size: 1.4em;
+}
+section{
+    display: flex;
+}
+
+.cont{
+    display: flex;
+    justify-content: space-around;
+}
+
+p{
+    padding-top: 70px;
+    text-align: center;
+    margin: 25px;
+}
+div ul{
+    padding-top: 70px;
+    margin-left: 50px;
+}
+
+section div img{
+    width: 300px;
+    height: 300px;
+    display: block;
+    
+}
+#foot div{
+    background-color: orange;
+    text-align: center;
+    align-items: center;
+    height: 30px;
+}
+#foot div a{
+    text-decoration: none;
+    margin: 5px;
+    
+}
