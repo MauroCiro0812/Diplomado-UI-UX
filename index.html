@@ -1,114 +1,211 @@
 <!DOCTYPE html>
 <html lang="es">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
-    <link rel="shortcut icon" href="./img/884081 (1).ico" type="image/x-icon">
+    <link rel="stylesheet" href="./assets/src/style.css">
+    <link rel="shortcut icon" href="./assets/img/884081 (1).ico" type="image/x-icon">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description"
-        content="Explora nuestra emocionante pagina, horarios y proximas presentaciones, críticas y más." />
-    <meta name="keywords" content="informacion, música y conciertos, Mauricio, Ciro, Riaza, MauroCiro0812">
-    <meta name="sitedomain" content="https://prueba.com/" />
-    <meta name="organization" content="“RIWI_GATES”: Mauricio Ciro Riaza" />
+    <meta name="description" content="Sobre mi." />
+    <meta name="keywords" content="informacion,, Mauricio, Ciro, Riaza, MauroCiro0812">
+    <meta name="sitedomain" content="https://portafolio.com/" />
+    <meta name="organization" content=" Mauricio Ciro Riaza" />
     <meta name="author" content="Mauricio Ciro Riaza" />
     <meta name="designer" content="Mauricio Ciro Riaza" />
-    <meta name="copyright" content="© 2024 Riwi Prueba. Todos los derechos reservados">
+    <meta name="copyright" content="© 2024 Portafolio. Todos los derechos reservados">
     <meta name="robots" content="index,follow" />
     <meta name="googlebot" content="index,follow" />
     <meta name="revisit-after" content="15days" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
     <title>Presentacion</title>
 </head>
+
 <body>
-    <header>         
-        <nav >
+    <header>
+        <nav>
             <a href="#sec">Sobre Mi</a>
-            <a href="">Proyectos</a>
-            <a href="">Contactame</a>
-            <a href="">Tecnologias</a>
-        </nav>   
+            <a href="#proyectos">Proyectos</a>
+            <a href="#tecnologias">Tecnologias</a>
+            <a href="#sec_form">Contactame</a>
+        </nav>
         <h1>Mauricio Ciro Riaza</h1>
     </header>
     <main>
         <section id="sec">
             <div class="cont">
                 <p>
-                    Mi nombre es Mauricio Ciro, tengo 29 años, durante la mayor parte de mi vida trabaje con aire acondicionado, durante esta transicion de carrera he realizado varios cursos como el de Alura Latam, diplomado con alianza empresarial + cesde, terminando mi tecnologia en Analisis y Desarrollo con el SENA, Actualmente estudiando ingles en Nodo Eafit y autodidacta.
+                    Mi nombre es Mauricio Ciro, tengo 29 años, soy desarrollador, durante la mayor parte de mi vida trabaje con aire
+                    acondicionado, durante esta transicion de carrera he realizado varios cursos como el de Alura Latam,
+                    diplomado con alianza empresarial + cesde, terminando mi tecnologia en Analisis y Desarrollo con el
+                    SENA, Actualmente estudiando ingles en Nodo Eafit y autodidacta.
                 </p>
-                <img src="./img/DSC09925 (1).jpg" alt="imagen_presentacion">
+                <img src="./assets/img/DSC09925 (1).jpg" alt="imagen_presentacion">
             </div>
         </section>
-        <section id="tecnologias" class="carousel">
-            <article class="cont-image-tecnologias">
-                <figure class="carousel_item">
-                    <img class="image-tecnologias" src="./img/html.png"
-                        alt="html">
-                    <figcaption>Html</figcaption>
 
-                </figure>
-            </article>
-            <article class="cont-image-tecnologias">
-                <figure class="carousel_item">
-                    <img class="image-tecnologias" src="./img/css.png" alt="css">
-                    <figcaption>Css</figcaption>
-
-                </figure>
-            </article>
-            <article class="cont-image-tecnologias">
-                <figure class="carousel_item">
-                    <img class="image-tecnologias" src="./img/JavaScript.webp" alt="js">
-                    <figcaption>JavaScript</figcaption>
-
-                </figure>
-            </article>
-            <article class="cont-image-tecnologias">
-                <figure class="carousel_item">
-                    <img class="image-tecnologias" src="./img/Python-logo.png" alt="python">
-                    <figcaption>Python</figcaption>
-
-                </figure>
-            </article>
-            <article class="cont-image-tecnologias">
-                <figure class="carousel_item">
-                    <img class="image-tecnologias" src="./img/Laravel.png"
-                        alt="laravel">
-                    <figcaption>Laravel</figcaption>
-
-                </figure>
-            </article>
-        </section>
-        <section>
+        <section id="proyectos">
             <div>
                 <ul>
-                    <li>Realice un proyecto en laravel para la presentacion en el bootcamp tipo ecomerce.</li>
-                    <li>Colaboraciones en landing page  </li>
-                </ul>  
+                    <li>Ecommerce.
+                        <a href="https://github.com/demya-corporation/JamDay" target="_blank">JamDay</a>
+                    </li>
+                    <li>Cine local.
+                        <a href="https://github.com/MauroCiro0812/Proyecto-Cine-RIWI" target="_blank">Cine Local</a>
+                    </li>
+                    <li>
+                        Simulacro.
+                        <a href="https://github.com/MauroCiro0812/Simulacro_Riwi" target="_blank">Simulacro</a>
+                    </li>
+                </ul>
             </div>
         </section>
-        
+
+        <section id="tecnologias" class="carousel">
+            <div id="carouselExampleInterval" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-inner">
+                    <div class="carousel-item active" data-bs-interval="10000">
+                        <!--License: MIT. Made by edent: https://github.com/edent/SuperTinyIcons-->
+                        <?xml version="1.0" encoding="utf-8"?>
+                        <!--License: Logo. Made by Gitlab: https://gitlab.com/gitlab-org/gitlab-svgs-->
+                        <svg width="300px" height="300px" viewBox="0 0 64 64" fill="none"
+                            xmlns="http://www.w3.org/2000/svg">
+                            <path fill-rule="evenodd" clip-rule="evenodd"
+                                d="M47.982 23.453c.012.044.018.089.018.134v7.071a.516.516 0 0 1-.26.448l-5.934 3.417v6.772a.517.517 0 0 1-.258.447L29.16 48.874c-.029.016-.06.026-.09.037-.012.004-.023.011-.035.015a.519.519 0 0 1-.264 0c-.015-.004-.027-.012-.041-.017-.028-.01-.058-.02-.085-.035l-12.386-7.132a.517.517 0 0 1-.259-.447V20.082c0-.046.006-.091.018-.135.004-.015.013-.028.018-.043.01-.027.019-.055.033-.08.01-.017.024-.03.035-.046.015-.02.029-.042.046-.06.015-.015.034-.026.051-.039.019-.015.035-.032.057-.044l6.194-3.566a.517.517 0 0 1 .515 0l6.194 3.566c.021.013.039.029.057.044.017.013.036.024.05.038.019.02.032.04.047.061.011.016.026.029.035.046.015.025.023.053.034.08.005.015.014.028.017.044a.52.52 0 0 1 .019.134v13.25l5.16-2.972v-6.773a.52.52 0 0 1 .019-.134c.004-.016.012-.03.018-.044.01-.027.019-.055.033-.08.01-.017.024-.03.035-.046.015-.02.028-.042.046-.06.015-.015.034-.025.05-.038.02-.016.037-.033.057-.045l6.195-3.566a.516.516 0 0 1 .515 0l6.194 3.566c.022.013.038.03.058.044.016.013.034.024.05.039.017.018.03.04.046.06.011.016.025.03.034.046.015.025.024.053.034.08.006.015.014.028.018.044zm-1.014 6.907v-5.88L44.8 25.728l-2.994 1.724v5.88l5.162-2.972zm-6.194 10.637v-5.884l-2.945 1.682-8.41 4.8v5.94l11.355-6.538zM17.032 20.975v20.022l11.355 6.537v-5.938l-5.932-3.357-.002-.002-.003-.001c-.02-.012-.036-.028-.055-.043-.016-.012-.035-.023-.049-.037l-.001-.002c-.017-.016-.029-.036-.043-.054-.013-.017-.028-.032-.038-.05l-.001-.002c-.012-.02-.019-.043-.027-.065-.009-.019-.02-.037-.025-.058-.006-.025-.007-.05-.01-.076-.003-.02-.008-.038-.008-.058V23.946L19.2 22.222l-2.168-1.247zm5.678-3.863-5.16 2.97 5.159 2.97 5.16-2.97-5.16-2.97h.001zm2.684 18.537 2.993-1.723V20.975l-2.167 1.247-2.994 1.724v12.951l2.168-1.248zM41.29 20.617l-5.16 2.97 5.16 2.97 5.158-2.97-5.158-2.97zm-.517 6.835-2.994-1.724-2.167-1.248v5.88l2.993 1.723 2.168 1.249v-5.88zm-11.872 13.25 7.568-4.32 3.783-2.16-5.156-2.968-5.936 3.418-5.41 3.115 5.151 2.915z"
+                                fill="#FF2D20" />
+                        </svg>
+                        <p>Laravel</p>
+
+                    </div>
+                    <div class="carousel-item" data-bs-interval="2000">
+                        <?xml version="1.0" encoding="utf-8"?>
+                        <!--License: Logo. Made by Gitlab: https://gitlab.com/gitlab-org/gitlab-svgs-->
+                        <svg width="300px" height="300px" viewBox="0 0 64 64" fill="none"
+                            xmlns="http://www.w3.org/2000/svg">
+                            <path
+                                d="M31.885 16c-8.124 0-7.617 3.523-7.617 3.523l.01 3.65h7.752v1.095H21.197S16 23.678 16 31.876c0 8.196 4.537 7.906 4.537 7.906h2.708v-3.804s-.146-4.537 4.465-4.537h7.688s4.32.07 4.32-4.175v-7.019S40.374 16 31.885 16zm-4.275 2.454c.771 0 1.395.624 1.395 1.395s-.624 1.395-1.395 1.395a1.393 1.393 0 0 1-1.395-1.395c0-.771.624-1.395 1.395-1.395z"
+                                fill="url(#a)" />
+                            <path
+                                d="M32.115 47.833c8.124 0 7.617-3.523 7.617-3.523l-.01-3.65H31.97v-1.095h10.832S48 40.155 48 31.958c0-8.197-4.537-7.906-4.537-7.906h-2.708v3.803s.146 4.537-4.465 4.537h-7.688s-4.32-.07-4.32 4.175v7.019s-.656 4.247 7.833 4.247zm4.275-2.454a1.393 1.393 0 0 1-1.395-1.395c0-.77.624-1.394 1.395-1.394s1.395.623 1.395 1.394c0 .772-.624 1.395-1.395 1.395z"
+                                fill="url(#b)" />
+                            <defs>
+                                <linearGradient id="a" x1="19.075" y1="18.782" x2="34.898" y2="34.658"
+                                    gradientUnits="userSpaceOnUse">
+                                    <stop stop-color="#387EB8" />
+                                    <stop offset="1" stop-color="#366994" />
+                                </linearGradient>
+                                <linearGradient id="b" x1="28.809" y1="28.882" x2="45.803" y2="45.163"
+                                    gradientUnits="userSpaceOnUse">
+                                    <stop stop-color="#FFE052" />
+                                    <stop offset="1" stop-color="#FFC331" />
+                                </linearGradient>
+                            </defs>
+                        </svg>
+                        <p>Python</p>
+
+                    </div>
+                    <div class="carousel-item">
+                        <?xml version="1.0" encoding="utf-8"?>
+                        <!--License: MIT. Made by vscode-icons: https://github.com/vscode-icons/vscode-icons-->
+                        <svg width="300px" height="300px" viewBox="0 0 32 32" xmlns="http://www.w3.org/2000/svg">
+                            <title>file_type_js</title>
+                            <path
+                                d="M18.774,19.7a3.727,3.727,0,0,0,3.376,2.078c1.418,0,2.324-.709,2.324-1.688,0-1.173-.931-1.589-2.491-2.272l-.856-.367c-2.469-1.052-4.11-2.37-4.11-5.156,0-2.567,1.956-4.52,5.012-4.52A5.058,5.058,0,0,1,26.9,10.52l-2.665,1.711a2.327,2.327,0,0,0-2.2-1.467,1.489,1.489,0,0,0-1.638,1.467c0,1.027.636,1.442,2.1,2.078l.856.366c2.908,1.247,4.549,2.518,4.549,5.376,0,3.081-2.42,4.769-5.671,4.769a6.575,6.575,0,0,1-6.236-3.5ZM6.686,20c.538.954,1.027,1.76,2.2,1.76,1.124,0,1.834-.44,1.834-2.15V7.975h3.422V19.658c0,3.543-2.078,5.156-5.11,5.156A5.312,5.312,0,0,1,3.9,21.688Z"
+                                style="fill:#f5de19" />
+                        </svg>
+                        <p>JavaScript</p>
+
+                    </div>
+                    <div class="carousel-item">
+                        <?xml version="1.0" encoding="utf-8"?>
+                        <!--License: MIT. Made by vscode-icons: https://github.com/vscode-icons/vscode-icons-->
+                        <svg width="300px" height="300px" viewBox="0 0 32 32" xmlns="http://www.w3.org/2000/svg">
+                            <title>file_type_css</title>
+                            <polygon points="5.902 27.201 3.656 2 28.344 2 26.095 27.197 15.985 30 5.902 27.201"
+                                style="fill:#1572b6" />
+                            <polygon points="16 27.858 24.17 25.593 26.092 4.061 16 4.061 16 27.858"
+                                style="fill:#33a9dc" />
+                            <polygon
+                                points="16 13.191 20.09 13.191 20.372 10.026 16 10.026 16 6.935 16.011 6.935 23.75 6.935 23.676 7.764 22.917 16.282 16 16.282 16 13.191"
+                                style="fill:#fff" />
+                            <polygon
+                                points="16.019 21.218 16.005 21.222 12.563 20.292 12.343 17.827 10.67 17.827 9.24 17.827 9.673 22.68 16.004 24.438 16.019 24.434 16.019 21.218"
+                                style="fill:#ebebeb" />
+                            <polygon
+                                points="19.827 16.151 19.455 20.29 16.008 21.22 16.008 24.436 22.344 22.68 22.391 22.158 22.928 16.151 19.827 16.151"
+                                style="fill:#fff" />
+                            <polygon
+                                points="16.011 6.935 16.011 8.855 16.011 10.018 16.011 10.026 8.555 10.026 8.555 10.026 8.545 10.026 8.483 9.331 8.342 7.764 8.268 6.935 16.011 6.935"
+                                style="fill:#ebebeb" />
+                            <polygon
+                                points="16 13.191 16 15.111 16 16.274 16 16.282 12.611 16.282 12.611 16.282 12.601 16.282 12.539 15.587 12.399 14.02 12.325 13.191 16 13.191"
+                                style="fill:#ebebeb" />
+                        </svg>
+                        <p>Css</p>
+
+                    </div>
+                    <div class="carousel-item">
+                        <?xml version="1.0" encoding="utf-8"?>
+                        <!--License: MIT. Made by vscode-icons: https://github.com/vscode-icons/vscode-icons-->
+                        <svg width="300px" height="300px" viewBox="0 0 32 32" xmlns="http://www.w3.org/2000/svg">
+                            <title>file_type_html</title>
+                            <polygon points="5.902 27.201 3.655 2 28.345 2 26.095 27.197 15.985 30 5.902 27.201"
+                                style="fill:#e44f26" />
+                            <polygon points="16 27.858 24.17 25.593 26.092 4.061 16 4.061 16 27.858"
+                                style="fill:#f1662a" />
+                            <polygon
+                                points="16 13.407 11.91 13.407 11.628 10.242 16 10.242 16 7.151 15.989 7.151 8.25 7.151 8.324 7.981 9.083 16.498 16 16.498 16 13.407"
+                                style="fill:#ebebeb" />
+                            <polygon
+                                points="16 21.434 15.986 21.438 12.544 20.509 12.324 18.044 10.651 18.044 9.221 18.044 9.654 22.896 15.986 24.654 16 24.65 16 21.434"
+                                style="fill:#ebebeb" />
+                            <polygon
+                                points="15.989 13.407 15.989 16.498 19.795 16.498 19.437 20.507 15.989 21.437 15.989 24.653 22.326 22.896 22.372 22.374 23.098 14.237 23.174 13.407 22.341 13.407 15.989 13.407"
+                                style="fill:#fff" />
+                            <polygon
+                                points="15.989 7.151 15.989 9.071 15.989 10.235 15.989 10.242 23.445 10.242 23.445 10.242 23.455 10.242 23.517 9.548 23.658 7.981 23.732 7.151 15.989 7.151"
+                                style="fill:#fff" />
+                        </svg>
+                        <p>Html</p>
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleInterval"
+                    data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleInterval"
+                    data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+        </section>
+
         <section id="sec_form">
             <article>
                 <div class="container">
                     <div>
-                        
+
                         <form action="#">
                             <h1>Contactame</h1>
                             <div class="cont">
                                 <label class="label-cont" for="text">Nombre Completo</label>
                                 <br>
                                 <input type="text" required>
-                               
+
                             </div>
                             <div class="cont">
                                 <label class="label-cont" for="email">Correo Electrónico</label>
                                 <br>
                                 <input type="email" required placeholder="example@email.com">
-                                
+
                             </div>
-                            <div  class="cont">
+                            <div class="cont">
                                 <label class="label-cont" for="coment">Cuentanos sobre tu idea de negocio</label>
                                 <textarea name="coment" id="" cols="30" rows="10"></textarea>
-                                
+
                             </div>
                             <div class="cont">
                                 <button type="submit">Enviar</button>
@@ -121,17 +218,22 @@
     </main>
     <br>
     <footer id="foot">
-        <div >
+        <div>
             Desarrolado por Mauricio Ciro TempTech 2024
         </div>
-        <div> 
+        <div>
             <a href="https://github.com/MauroCiro0812" target="_blank">
                 <i class="bi bi-github"></i>
             </a>
-            <a href="https://www.linkedin.com/in/mauricio-ciro-394738250?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" target="_blank">
+            <a href="https://www.linkedin.com/in/mauricio-ciro-394738250?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
+                target="_blank">
                 <i class="bi bi-linkedin"></i>
             </a>
         </div>
     </footer>
 </body>
+
 </html>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+    crossorigin="anonymous"></script>
