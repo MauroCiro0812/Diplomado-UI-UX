@@ -5,7 +5,20 @@
     background-color: black;
     color: white;
 }
+header nav {
+    position: fixed;
+    width: 100%;
+    z-index: 1;
+    height: 50px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 10px 15px;
+
+}
+
 header h1{
+    padding-top: 100px;
     border-top: rgba(255, 255, 255, 0.76) solid;
 }
 h1{
@@ -29,8 +42,9 @@ nav a {
 nav a:hover{
     font-size: 1.4em;
 }
-section{
+#sec{
     display: flex;
+    padding-bottom: 5%;
 }
 
 .cont{
@@ -43,6 +57,42 @@ p{
     text-align: center;
     margin: 25px;
 }
+#tecnologias{
+    border-top: 3px solid orange;
+}
+.image-tecnologias {
+    border-radius: 20%;
+    padding-top: 40px;
+    width: 350px;
+    height: 350px;
+    margin: 15px;
+    transition: 0.3s;
+
+}
+
+.image-tecnologias:hover{
+    height: 375px;
+    width: 375px;
+    cursor: pointer;
+}
+.carousel {
+    /* Esto hace que los elementos se desplacen en un contenedor */
+    display: flex;
+    overflow-x: auto;
+    scroll-snap-type: x mandatory;
+}
+
+.carousel_item {
+    flex: 0 0 auto;
+    margin-right: 16px;
+    width: 21.5%;
+    scroll-snap-align: start;
+    transition: 0.8s;
+    width: auto;
+    height: auto;
+    margin: 15px;
+    transition: 0.3s;
+}
 div ul{
     padding-top: 70px;
     margin-left: 50px;
@@ -51,9 +101,106 @@ div ul{
 section div img{
     width: 300px;
     height: 300px;
-    display: block;
-    
+    border-radius: 50%;
+    padding-top: 20px;
+    margin-right: 5%;
 }
+
+#sec_form{
+    padding-top: 5%;
+    display: flex;
+    justify-content: center;
+}
+
+.container{
+    width: 400px;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    border-radius: 20px;
+    border: 2px solid #ffb547;
+    background: url(../../public/img/fondo-realista-estilo-futurista.webp);
+    background-size: cover;
+    background-position: center;
+    overflow: hidden;
+    color: white;
+    box-shadow: 0px 0px 20px rgb(0, 0, 0, 0.75);
+    /* font-family: "Lilita One", sans-serif; */
+    font-family: "Montserrat", sans-serif;
+    font-weight: bold;
+}
+
+form{
+    display: block;
+    box-sizing: border-box;
+    padding: 40px;
+    width: 100%;
+    height: 100%;
+    backdrop-filter: brightness(60%);
+    flex-direction: column;
+    display: flex;
+    gap: 5px;
+}
+
+h1{
+    font-weight: normal;
+    font-size: 1.6rem;
+    text-shadow: 0px 0px 2px rgb(0, 0, 0, 0.5);
+    margin-bottom: 60px;
+}
+
+label{
+    color: rgb(255, 255, 255, 0.8);
+    /* text-transform: uppercase; */
+    font-size: 0.8rem;
+    /* font-size: 10px; */
+    letter-spacing: 2px;
+    padding-left: 10px;
+}
+
+input{
+    background: rgb(255, 255, 255, 0.3);
+    margin-top: 10px;
+    height: 40px;
+    line-height: 40px;
+    border-radius: 20px;
+    padding: 0px 20px;
+    border: none;
+    margin-bottom: 20px;
+    color: white;
+}
+
+input::placeholder{
+    color: rgba(255, 255, 255, 0.568);
+    text-align: center;
+}
+
+textarea{
+    background: rgb(255, 255, 255, 0.3);
+    margin-top: 10px;
+    height: 60px;
+    line-height: 40px;
+    border-radius: 20px;
+    padding: 0px 20px;
+    border: none;
+    margin-bottom: 20px;
+    color: white;
+}
+
+button{
+    background: #d3923170;
+    height: 40px;
+    width: 50%;
+    line-height: 40px;
+    border-radius: 40px;
+    border: none;
+    margin: 10px 0px;
+    box-shadow: 0px 0px 5px rgb(0, 0, 0, 0.3);
+    color: white;
+    cursor: pointer;
+}
+
 #foot div{
     background-color: orange;
     text-align: center;
