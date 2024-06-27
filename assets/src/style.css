@@ -38,7 +38,7 @@ nav a {
     text-decoration: none;
     background-color: var(--orange);
     align-items: center;
-    color: var(--primary-color);
+    color: black;
     font-weight:bold ;
 }
 nav a:hover{
@@ -68,7 +68,7 @@ p{
 
 #proyectos a{
     text-decoration: none;
-    color: var(--orange);
+    color: var(--primary-color);
 }
 
 #tecnologias{
@@ -199,6 +199,7 @@ button{
     text-align: center;
     align-items: center;
     height: 30px;
+    color: #0C0C0C;
 }
 #foot div a{
     text-decoration: none;
