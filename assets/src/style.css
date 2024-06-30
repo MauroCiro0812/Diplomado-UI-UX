@@ -200,9 +200,14 @@ button{
     align-items: center;
     height: 30px;
     color: #0C0C0C;
+    font-weight: bold;
 }
-#foot div a{
+footer #links{
+    background-color: #0C0C0C;
+}
+#foot div a {
     text-decoration: none;
-    margin: 5px;
-    
+    margin: 15px;
+    color: rgb(182, 176, 176);
+    font-size: 1.8rem;
 }
